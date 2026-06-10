@@ -1,0 +1,54 @@
+sample-web-app/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .env.example
+├── package.json
+├── package-lock.json
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── docker-compose.yml
+├── Dockerfile
+├── config/
+│   ├── development.json
+│   ├── production.json
+│   └── test.json
+├── docs/
+│   ├── architecture.md
+│   ├── api.md
+│   └── deployment.md
+├── scripts/
+│   ├── build.sh
+│   ├── deploy.sh
+│   └── seed-data.sh
+├── src/
+│   ├── index.js
+│   ├── server.js
+│   ├── routes/
+│   │   ├── users.js
+│   │   └── products.js
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   └── productController.js
+│   ├── services/
+│   │   ├── userService.js
+│   │   └── productService.js
+│   ├── middleware/
+│   │   ├── auth.js
+│   │   └── logger.js
+│   └── utils/
+│       ├── validator.js
+│       └── formatter.js
+├── tests/
+│   ├── user.test.js
+│   ├── product.test.js
+│   └── integration.test.js
+├── data/
+│   ├── users.csv
+│   ├── products.csv
+│   └── orders.csv
+└── .github/
+└── workflows/
+├── ci.yml
+└── deploy.yml
